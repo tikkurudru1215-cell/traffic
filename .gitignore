@@ -1,9 +1,7 @@
-# Ignore the large generated model file
+# Ignore the large model file (Too big for GitHub LFS free tier)
 models/traffic_model.pkl
 
-
-
-# Ignore any virtual environment folders
+# Ignore environments
 **/.venv/
 **/venv/
 
