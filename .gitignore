@@ -1,0 +1,11 @@
+# Ignore the large generated model file
+models/traffic_model.pkl
+
+
+
+# Ignore any virtual environment folders
+**/.venv/
+**/venv/
+
+# Ignore Python cache
+**/__pycache__/

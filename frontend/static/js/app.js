@@ -12,7 +12,7 @@ function switchTab(id, el) {
   el.classList.add("on");
 
   // Lazy-init tabs
-  if (id === "map-page" && !window._mapInited) {
+  if (id === "p-map" && !window._mapInited) {
     window._mapInited = true;
     initMap();
   }
